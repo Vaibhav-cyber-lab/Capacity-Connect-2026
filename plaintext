@@ -1,0 +1,34 @@
+capacity-connect/
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── index.html
+├── firestore.rules
+├── firebase-applet-config.json
+├── .env.example
+├── .gitignore
+├── server.js
+└── src/
+    ├── main.tsx
+    ├── App.tsx
+    ├── index.css
+    ├── types.ts
+    ├── context/
+    │   └── AuthContext.tsx
+    ├── lib/
+    │   ├── firebase.ts
+    │   ├── storage.ts
+    │   └── api.ts
+    └── components/
+        ├── auth/
+        │   └── AuthScreen.tsx
+        ├── layout/
+        │   ├── Header.tsx
+        │   ├── Footer.tsx
+        │   ├── LandingPage.tsx
+        │   └── Layout.tsx
+        └── dashboards/
+            ├── HomeDashboard.tsx
+            ├── TraineeDashboard.tsx
+            ├── TrainerDashboard.tsx
+            └── AdminDashboard.tsx
